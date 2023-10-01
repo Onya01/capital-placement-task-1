@@ -1,7 +1,7 @@
 import { Button, Divider, Row, Select, Space } from "antd";
 import React from "react";
 import FormQuestionBlock from "../../../components/questionaireForm/QuestionaireForm";
-import ParagraphQuestion from "../informations/ParagraphQuestion";
+import ParagraphQuestion from "../informations/ParagraphInfo";
 import YesOrNo from "../informations/YesOrNo";
 import ShortAnswer from "../informations/ShortAnswer";
 import DateQuestion from "../informations/InfoQuestion";

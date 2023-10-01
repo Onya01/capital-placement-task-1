@@ -2,7 +2,7 @@ import { EditOutlined } from "@ant-design/icons";
 import { Button, Col, Divider, Row, Select } from "antd";
 import Title from "antd/es/typography/Title";
 import React, { useEffect } from "react";
-import ParagraphQuestion from "../../pages/Home/informations/ParagraphQuestion";
+import ParagraphQuestion from "../../pages/Home/informations/ParagraphInfo";
 import ShortAnswer from "../../pages/Home/informations/ShortAnswer";
 import YesOrNo from "../../pages/Home/informations/YesOrNo";
 import DropDownQuestion from "../../pages/Home/informations/DropDownInfor";

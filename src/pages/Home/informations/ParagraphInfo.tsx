@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Row } from "antd";
 import TextField from "../../../components/textField/TextField";
 
-const ParagraphQuestion = (props: any) => {
+const Paragraph = (props: any) => {
   const { handleDeleteQuestion, handleSaveQuestion, value, setValue } = props;
   const [saveLoading, setSaveLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
@@ -32,9 +32,9 @@ const ParagraphQuestion = (props: any) => {
             style={{
               color: "#A80000",
               fontFamily: "Poppins",
-              fontSize: "0.9rem",
+              fontSize: "1rem",
               fontStyle: "normal",
-              fontWeight: "600",
+              fontWeight: "700",
             }}
             onClick={handleDeleteQuestion}
           >
@@ -45,8 +45,8 @@ const ParagraphQuestion = (props: any) => {
             style={{
               borderRadius: "5px",
               background: "#087B2F",
-              width: "4.5rem",
-              height: "2.2rem",
+              width: "4.6rem",
+              height: "2.3rem",
             }}
             onClick={() => {
               setError(false);
@@ -70,4 +70,4 @@ const ParagraphQuestion = (props: any) => {
   );
 };
 
-export default ParagraphQuestion;
+export default Paragraph;
