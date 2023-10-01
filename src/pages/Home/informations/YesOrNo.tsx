@@ -31,7 +31,7 @@ const YesOrNo = (props: any) => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          marginBottom: "25px",
+          marginBottom: "4rem",
         }}
       >
         <ConfigProvider
@@ -43,11 +43,11 @@ const YesOrNo = (props: any) => {
         >
           <Checkbox
             style={{
-              color: " #000",
+              color: " #000000",
               fontFamily: "Poppins",
-              fontSize: "0.9rem",
+              fontSize: "1rem",
               fontStyle: "normal",
-              fontWeight: "400",
+              fontWeight: "500",
             }}
             checked={disqualify}
             onChange={() => {
@@ -72,9 +72,9 @@ const YesOrNo = (props: any) => {
           style={{
             color: "#A80000",
             fontFamily: "Poppins",
-            fontSize: "0.9rem",
+            fontSize: "1rem",
             fontStyle: "normal",
-            fontWeight: "600",
+            fontWeight: "700",
           }}
           onClick={handleDeleteQuestion}
         >
@@ -85,8 +85,8 @@ const YesOrNo = (props: any) => {
           style={{
             borderRadius: "5px",
             background: "#087B2F",
-            width: "4.5rem",
-            height: "2.2rem",
+            width: "4.6rem",
+            height: "2.3rem",
           }}
           onClick={() => {
             setError(false);
