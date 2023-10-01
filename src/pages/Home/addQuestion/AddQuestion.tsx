@@ -5,7 +5,7 @@ import ParagraphQuestion from "../informations/ParagraphInfo";
 import YesOrNo from "../informations/YesOrNo";
 import ShortAnswer from "../informations/ShortAnswer";
 import DateQuestion from "../informations/InfoQuestion";
-import NumberQuestion from "../informations/NumberInfo";
+import NumberQuestion from "../informations/Number";
 import FileQuestion from "../informations/FileInfo";
 import VideoQuestion from "../informations/VideoQuestion";
 import DropDownQuestion from "../informations/DropDownInfor";

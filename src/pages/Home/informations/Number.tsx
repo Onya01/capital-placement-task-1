@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Row } from "antd";
 import TextField from "../../../components/textField/TextField";
 
-const NumberInfo = (props: any) => {
+const Number = (props: any) => {
   const { handleDeleteQuestion, handleSaveQuestion, value, setValue } = props;
   const [saveLoading, setSaveLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
@@ -70,4 +70,4 @@ const NumberInfo = (props: any) => {
   );
 };
 
-export default NumberInfo;
+export default Number;
