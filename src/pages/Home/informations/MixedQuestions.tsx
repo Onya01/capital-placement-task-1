@@ -3,7 +3,7 @@ import { Button, Checkbox, Col, ConfigProvider, Row } from "antd";
 import TextField from "../../../components/textField/TextField";
 import { PlusOutlined, UnorderedListOutlined } from "@ant-design/icons";
 
-const MixedQuestion = (props: any) => {
+const MixedQuestions = (props: any) => {
   const {
     handleDeleteQuestion,
     handleSaveQuestion,
@@ -279,4 +279,4 @@ const MixedQuestion = (props: any) => {
   );
 };
 
-export default MixedQuestion;
+export default MixedQuestions;
