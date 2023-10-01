@@ -35,8 +35,8 @@ const VideoQuestion = (props: any) => {
             <Input
               style={{
                 width: "90%",
-                height: "3.5rem",
-                fontWeight: 600,
+                height: "3.6rem",
+                fontWeight: 700,
                 marginTop: "1rem",
               }}
               placeholder="Max duration of video"
@@ -52,7 +52,7 @@ const VideoQuestion = (props: any) => {
           >
             <Select
               placeholder="in (sec/min)"
-              style={{ width: "100%", height: "3.5rem", marginTop: "1rem" }}
+              style={{ width: "100%", height: "3.6rem", marginTop: "1rem" }}
               onChange={handleQuestionChange}
               listHeight={500}
               options={[
@@ -77,9 +77,9 @@ const VideoQuestion = (props: any) => {
             style={{
               color: "#A80000",
               fontFamily: "Poppins",
-              fontSize: "0.9rem",
+              fontSize: "1rem",
               fontStyle: "normal",
-              fontWeight: "600",
+              fontWeight: "700",
             }}
             onClick={handleDeleteQuestion}
           >
@@ -90,8 +90,8 @@ const VideoQuestion = (props: any) => {
             style={{
               borderRadius: "5px",
               background: "#087B2F",
-              width: "4.5rem",
-              height: "2.2rem",
+              width: "4.4rem",
+              height: "2.1rem",
             }}
             onClick={() => {
               setError(false);
