@@ -9,7 +9,7 @@ import DropDownQuestion from "../../pages/Home/informations/DropDownInfor";
 import Mcq from "../../pages/Home/informations/MultiplChoice";
 import DateQuestion from "../../pages/Home/informations/InfoQuestion";
 import NumberQuestion from "../../pages/Home/informations/Number";
-import FileQuestion from "../../pages/Home/informations/FileInfo";
+import FileQuestion from "../../pages/Home/informations/FileUpload";
 import VideoQuestion from "../../pages/Home/informations/VideoQuestion";
 
 
