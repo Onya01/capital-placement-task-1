@@ -1,6 +1,5 @@
 import { Space } from "antd";
 import Title from "antd/es/typography/Title";
-import React from "react";
 import FormBlock from "../../../components/form/Form";
 
 const Profile = (props: any) => {
@@ -24,27 +23,27 @@ const Profile = (props: any) => {
     <>
       <Title
         style={{
-          color: "#000",
+          color: "#000000",
           fontFamily: "Poppins",
-          fontSize: "1.5rem",
+          fontSize: "1.6rem",
           fontStyle: "normal",
-          fontWeight: 600,
-          borderRadius: "1.2rem 1.2rem  0px 0px",
+          fontWeight: 700,
+          borderRadius: "1.3rem 1.3rem  0px 0px",
           background: "#D0F7FA",
           marginTop: 0,
-          padding: "1.2rem",
+          padding: "1.3rem",
         }}
       >
         Profile
       </Title>
       <Space
         style={{
-          borderRadius: "1.2rem",
+          borderRadius: "1.3rem",
           display: "flex",
           alignItems: "stretch",
           justifyContent: "center",
           flexDirection: "column",
-          padding: "1rem",
+          padding: "1.2rem",
         }}
       >
         <FormBlock
