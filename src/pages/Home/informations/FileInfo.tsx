@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Row } from "antd";
 import TextField from "../../../components/textField/TextField";
 
-const FileQuestion = (props: any) => {
+const FileInfo = (props: any) => {
   const { handleDeleteQuestion, handleSaveQuestion, value, setValue } = props;
   const [saveLoading, setSaveLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
@@ -70,4 +70,4 @@ const FileQuestion = (props: any) => {
   );
 };
 
-export default FileQuestion;
+export default FileInfo;
