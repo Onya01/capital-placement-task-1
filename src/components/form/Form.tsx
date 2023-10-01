@@ -1,7 +1,6 @@
-import React from "react";
 import { Checkbox, ConfigProvider, Divider, Switch } from "antd";
 
-const FormBlock = (props: any) => {
+const Form = (props: any) => {
   const {
     displayAdditionalOptions,
     displayAdditionalOptionsText,
@@ -9,7 +8,7 @@ const FormBlock = (props: any) => {
     checkboxValue,
     setCheckboxValue,
     sliderValue,
-    setSliderValue,
+    setSliderValue
   } = props;
 
   return (
@@ -18,17 +17,17 @@ const FormBlock = (props: any) => {
         style={{
           display: "flex",
           justifyContent: "space-between",
-          alignItems: "center",
+          alignItems: "center"
         }}
       >
         <label
           htmlFor="inputField"
           style={{
-            color: "#000",
+            color: "#00000",
             fontFamily: "Poppins",
-            fontSize: "1.25rem",
+            fontSize: "1.27rem",
             fontStyle: "normal",
-            fontWeight: "600",
+            fontWeight: "700",
           }}
         >
           {label}
@@ -50,7 +49,7 @@ const FormBlock = (props: any) => {
               }}
             >
               <Checkbox
-                style={{ color: "black", fontWeight: 400, fontSize: "1rem" }}
+                style={{ color: "black", fontWeight: 500, fontSize: "1rem" }}
                 checked={checkboxValue}
                 onChange={() => {
                   setCheckboxValue(!checkboxValue);
@@ -73,7 +72,7 @@ const FormBlock = (props: any) => {
                   }}
                 />
                 <span
-                  style={{ color: "#666", fontWeight: 400, fontSize: "1rem" }}
+                  style={{ color: "#666", fontWeight: 500, fontSize: "1.2rem" }}
                 >
                   {sliderValue ? "Show" : "Hide"}
                 </span>
@@ -87,4 +86,4 @@ const FormBlock = (props: any) => {
   );
 };
 
-export default FormBlock;
+export default Form;

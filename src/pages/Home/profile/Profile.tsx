@@ -1,7 +1,7 @@
 import { Space } from "antd";
 import Title from "antd/es/typography/Title";
 import React from "react";
-import FormBlock from "../../../components/formBlock/FormBlock";
+import FormBlock from "../../../components/form/Form";
 
 const Profile = (props: any) => {
   const {
