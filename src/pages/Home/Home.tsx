@@ -4,7 +4,7 @@ import ImageUpload from "./imageUpload/ImageUpload";
 import { Button, Col, Row, notification } from "antd";
 import PersonalInformation from "./personalInformation/PersonalInformation";
 import Profile from "./profile/Profile";
-import AdditionalQuestions from "./additionalQuestions/AdditionalQuestions";
+import AdditionalQuestions from "./extQuestions/ExtQuestions";
 import AddQuestion from "./addQuestion/AddQuestion";
 import type { NotificationPlacement } from "antd/es/notification/interface";
 

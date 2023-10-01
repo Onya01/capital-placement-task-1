@@ -68,27 +68,27 @@ const AdditionalQuestions = (props: any) => {
     <>
       <Title
         style={{
-          color: "#000",
+          color: "#000000",
           fontFamily: "Poppins",
-          fontSize: "1.5rem",
+          fontSize: "1.6rem",
           fontStyle: "normal",
-          fontWeight: 600,
-          borderRadius: "1.2rem 1.2rem  0px 0px",
+          fontWeight: 700,
+          borderRadius: "1.4rem 1.2rem  0px 0px",
           background: "#D0F7FA",
           marginTop: 0,
-          padding: "1.2rem",
+          padding: "1.3rem",
         }}
       >
         Additional Questions
       </Title>
       <Space
         style={{
-          borderRadius: "1.2rem",
+          borderRadius: "1.3rem",
           display: "flex",
           alignItems: "stretch",
           justifyContent: "center",
           flexDirection: "column",
-          padding: "1rem",
+          padding: "1.3rem",
           paddingBottom: "2.5rem",
         }}
       >
@@ -108,16 +108,16 @@ const AdditionalQuestions = (props: any) => {
               style={{
                 color: "#000000bf",
                 fontFamily: "Poppins",
-                fontSize: "1.25rem",
+                fontSize: "1.27rem",
                 fontStyle: "normal",
-                fontWeight: "600",
+                fontWeight: "700",
               }}
             >
               Type of Question
             </label>
             <Select
               defaultValue="default"
-              style={{ width: "100%", height: "3.5rem", marginTop: "1rem" }}
+              style={{ width: "100%", height: "3.6rem", marginTop: "1.1rem" }}
               onChange={handleQuestionChange}
               listHeight={500}
               options={[
@@ -224,11 +224,11 @@ const AdditionalQuestions = (props: any) => {
         <Button
           type="text"
           style={{
-            color: " #000",
+            color: " #000000",
             fontFamily: "Poppins",
-            fontSize: "1rem",
+            fontSize: "2rem",
             fontStyle: "normal",
-            fontWeight: "600",
+            fontWeight: "700",
           }}
           onClick={() => {
             setIsAddQuestionOpen(true);
