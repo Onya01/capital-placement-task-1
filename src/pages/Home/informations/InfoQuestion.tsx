@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Row } from "antd";
 import TextField from "../../../components/textField/TextField";
 
-const DateQuestion = (props: any) => {
+const InfoQuestion = (props: any) => {
   const { handleDeleteQuestion, handleSaveQuestion, value, setValue } = props;
   const [saveLoading, setSaveLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
@@ -32,9 +32,9 @@ const DateQuestion = (props: any) => {
             style={{
               color: "#A80000",
               fontFamily: "Poppins",
-              fontSize: "0.9rem",
+              fontSize: "1rem",
               fontStyle: "normal",
-              fontWeight: "600",
+              fontWeight: "700",
             }}
             onClick={handleDeleteQuestion}
           >
@@ -43,10 +43,10 @@ const DateQuestion = (props: any) => {
           <Button
             type="primary"
             style={{
-              borderRadius: "5px",
+              borderRadius: "6px",
               background: "#087B2F",
-              width: "4.5rem",
-              height: "2.2rem",
+              width: "4.4rem",
+              height: "2.1rem",
             }}
             onClick={() => {
               setError(false);
@@ -70,4 +70,4 @@ const DateQuestion = (props: any) => {
   );
 };
 
-export default DateQuestion;
+export default InfoQuestion ;
