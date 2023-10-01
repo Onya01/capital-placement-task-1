@@ -4,7 +4,7 @@ import FormQuestionBlock from "../../../components/questionaireForm/Questionaire
 import ParagraphQuestion from "../questions/ParagraphQuestion";
 import YesOrNo from "../questions/YesOrNo";
 import ShortAnswer from "../questions/ShortAnswer";
-import DateQuestion from "../questions/DateQuestion";
+import DateQuestion from "../questions/Informtion";
 import NumberQuestion from "../questions/NumberQuestion";
 import FileQuestion from "../questions/FileQuestion";
 import VideoQuestion from "../questions/VideoQuestion";
