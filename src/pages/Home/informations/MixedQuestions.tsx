@@ -72,7 +72,7 @@ const MixedQuestions = (props: any) => {
                 display: "flex",
                 justifyContent: "space-between",
                 alignItems: "center",
-                marginBottom: "25px",
+                marginBottom: "4rem",
               }}
               key={index}
             >
@@ -86,7 +86,7 @@ const MixedQuestions = (props: any) => {
                 }}
               >
                 <UnorderedListOutlined
-                  style={{ fontSize: "1.5rem", marginTop: "2rem" }}
+                  style={{ fontSize: "1.6rem", marginTop: "2rem" }}
                 />
               </Col>
               <Col span={20}>
@@ -117,7 +117,7 @@ const MixedQuestions = (props: any) => {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            marginBottom: "25px",
+            marginBottom: "4px",
           }}
         >
           <Col
@@ -130,7 +130,7 @@ const MixedQuestions = (props: any) => {
             }}
           >
             <UnorderedListOutlined
-              style={{ fontSize: "1.5rem", marginTop: "2rem" }}
+              style={{ fontSize: "1.6rem", marginTop: "2rem" }}
             />
           </Col>
           <Col span={20}>
@@ -155,7 +155,7 @@ const MixedQuestions = (props: any) => {
           >
             <PlusOutlined
               style={{
-                fontSize: "1.5rem",
+                fontSize: "1.7rem",
                 marginTop: "2.5rem",
               }}
               onClick={handleAddOptions}
@@ -168,7 +168,7 @@ const MixedQuestions = (props: any) => {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            marginBottom: "25px",
+            marginBottom: "4px",
           }}
         >
           <ConfigProvider
@@ -180,11 +180,11 @@ const MixedQuestions = (props: any) => {
           >
             <Checkbox
               style={{
-                color: " #000",
+                color: " #000000",
                 fontFamily: "Poppins",
-                fontSize: "0.9rem",
+                fontSize: "1rem",
                 fontStyle: "normal",
-                fontWeight: "400",
+                fontWeight: "600",
               }}
               checked={other}
               onChange={() => {
@@ -219,9 +219,9 @@ const MixedQuestions = (props: any) => {
             style={{
               color: "#A80000",
               fontFamily: "Poppins",
-              fontSize: "0.9rem",
+              fontSize: "1rem",
               fontStyle: "normal",
-              fontWeight: "600",
+              fontWeight: "700",
             }}
             onClick={handleDeleteQuestion}
           >
@@ -232,8 +232,8 @@ const MixedQuestions = (props: any) => {
             style={{
               borderRadius: "5px",
               background: "#087B2F",
-              width: "4.5rem",
-              height: "2.2rem",
+              width: "4.6rem",
+              height: "2.3rem",
             }}
             onClick={() => {
               if (!isEditing) {
@@ -243,7 +243,7 @@ const MixedQuestions = (props: any) => {
                     setTimeout(() => {
                       setChoices(tempChoicesArray);
                       setSaveLoading(false);
-                    }, 500);
+                    }, 700);
                   } else {
                     setError(true);
                   }
@@ -260,7 +260,7 @@ const MixedQuestions = (props: any) => {
                         handleSaveQuestion();
                       }
                       setSaveLoading(false);
-                    }, 500);
+                    }, 700);
                   } else {
                     setError(true);
                   }
