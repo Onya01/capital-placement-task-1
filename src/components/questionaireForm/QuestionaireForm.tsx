@@ -13,7 +13,7 @@ import FileQuestion from "../../pages/Home/questions/FileQuestion";
 import VideoQuestion from "../../pages/Home/questions/VideoQuestion";
 
 
-const FormQuestionBlock = (props: any) => {
+const QuestionaireForm = (props: any) => {
   const { allQuestion, setAllQuestion } = props;
   // Flag
   const [isEditing, setIsEditing] = React.useState(false);
@@ -45,7 +45,7 @@ const FormQuestionBlock = (props: any) => {
     setAllQuestion(editedQuestionList);
     setTimeout(() => {
       setIsEditing(false);
-    }, 500);
+    }, 700);
   };
 
   const handleDeleteQuestion = () => {
@@ -76,9 +76,9 @@ const FormQuestionBlock = (props: any) => {
           style={{
             color: "#979797",
             fontFamily: "Poppins",
-            fontSize: "1rem",
+            fontSize: "1.1rem",
             fontStyle: "normal",
-            fontWeight: "500",
+            fontWeight: "600",
             textTransform: "capitalize",
           }}
         >
@@ -95,11 +95,11 @@ const FormQuestionBlock = (props: any) => {
           >
             <Title
               style={{
-                color: "#000",
+                color: "#000000",
                 fontFamily: "Poppins",
-                fontSize: "20px",
+                fontSize: "22px",
                 fontStyle: "normal",
-                fontWeight: "600",
+                fontWeight: "700",
                 textTransform: "capitalize",
               }}
             >
@@ -117,11 +117,11 @@ const FormQuestionBlock = (props: any) => {
             <Button
               type="text"
               style={{
-                color: "#000",
+                color: "#000000",
                 fontFamily: "Poppins",
-                fontSize: "20px",
+                fontSize: "22px",
                 fontStyle: "normal",
-                fontWeight: "600",
+                fontWeight: "700",
               }}
               onClick={() => {
                 setId(props.id);
@@ -258,6 +258,6 @@ const FormQuestionBlock = (props: any) => {
       )}
     </>
   );
-};
+}
 
-export default FormQuestionBlock;
+export default QuestionaireForm;
