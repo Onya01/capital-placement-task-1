@@ -12,7 +12,8 @@ import VideoQuestion from "../questions/VideoQuestion";
 import DropDownQuestion from "../questions/DropDownQuestion";
 import Mcq from "../questions/Mcq";
 
-const AdditionalQuestions = (props: any) => {
+
+const ExtQuestions = (props: any) => {
   const { allQuestion, setAllQuestion } = props;
 
   // Flags State
@@ -242,4 +243,4 @@ const AdditionalQuestions = (props: any) => {
   );
 };
 
-export default AdditionalQuestions;
+export default ExtQuestions;
