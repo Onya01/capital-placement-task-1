@@ -7,7 +7,7 @@ import ShortAnswer from "../../pages/Home/informations/ShortAnswer";
 import YesOrNo from "../../pages/Home/informations/YesOrNo";
 import DropDownQuestion from "../../pages/Home/informations/DropDown";
 import Mcq from "../../pages/Home/informations/MultiplChoice";
-import DateQuestion from "../../pages/Home/informations/InfoQuestion";
+import DateQuestion from "../../pages/Home/informations/Date";
 import NumberQuestion from "../../pages/Home/informations/Number";
 import FileQuestion from "../../pages/Home/informations/FileUpload";
 import VideoQuestion from "../../pages/Home/informations/VideoQuestion";
