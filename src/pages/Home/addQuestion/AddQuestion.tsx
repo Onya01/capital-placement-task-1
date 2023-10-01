@@ -3,7 +3,7 @@ import React from "react";
 import FormQuestionBlock from "../../../components/questionaireForm/QuestionaireForm";
 import ParagraphQuestion from "../informations/ParagraphInfo";
 import YesOrNo from "../informations/YesOrNo";
-import ShortAnswer from "../informations/ShortAnswer";
+import ShortAnswer from "../informations/InfoAnswer";
 import DateQuestion from "../informations/InfoQuestion";
 import NumberQuestion from "../informations/NumberInfo";
 import FileQuestion from "../informations/FileInfo";

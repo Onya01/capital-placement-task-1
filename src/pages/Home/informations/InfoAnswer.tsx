@@ -2,7 +2,7 @@ import { Button, Row } from "antd";
 import React from "react";
 import TextField from "../../../components/textField/TextField";
 
-const ShortAnswer = (props: any) => {
+const InfoAnswer = (props: any) => {
   const { handleDeleteQuestion, handleSaveQuestion, value, setValue } = props;
   const [saveLoading, setSaveLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
@@ -30,9 +30,9 @@ const ShortAnswer = (props: any) => {
           style={{
             color: "#A80000",
             fontFamily: "Poppins",
-            fontSize: "0.9rem",
+            fontSize: "1rem",
             fontStyle: "normal",
-            fontWeight: "600",
+            fontWeight: "700",
           }}
           onClick={handleDeleteQuestion}
         >
@@ -43,8 +43,8 @@ const ShortAnswer = (props: any) => {
           style={{
             borderRadius: "5px",
             background: "#087B2F",
-            width: "4.5rem",
-            height: "2.2rem",
+            width: "4.6rem",
+            height: "2.3rem",
           }}
           onClick={() => {
             setError(false);
@@ -53,7 +53,7 @@ const ShortAnswer = (props: any) => {
               setTimeout(() => {
                 handleSaveQuestion();
                 setSaveLoading(false);
-              }, 500);
+              }, 700);
             } else {
               setError(true);
             }
@@ -67,4 +67,4 @@ const ShortAnswer = (props: any) => {
   );
 };
 
-export default ShortAnswer;
+export default InfoAnswer;
