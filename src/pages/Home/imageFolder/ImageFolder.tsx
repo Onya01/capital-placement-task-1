@@ -3,7 +3,7 @@ import { Button, Space } from "antd";
 import Title from "antd/es/typography/Title";
 import { UploadOutlined } from "@ant-design/icons";
 
-const ImageUpload = (props: any) => {
+const ImageFolder = (props: any) => {
   const { setCoverImage } = props;
   const [file, setFile] = React.useState("");
   const handleChange = (e: any) => {
@@ -25,23 +25,23 @@ const ImageUpload = (props: any) => {
         <>
           <Title
             style={{
-              color: "#000",
+              color: "#000000",
               fontFamily: "Poppins",
-              fontSize: "1.5rem",
+              fontSize: "1.6rem",
               fontStyle: "normal",
-              fontWeight: 600,
-              borderRadius: "1.2rem 1.2rem  0px 0px",
+              fontWeight: 700,
+              borderRadius: "1.3rem 1.3rem  0px 0px",
               background: "#D0F7FA",
               marginTop: 0,
-              padding: "1.2rem",
+              padding: "1.3rem",
             }}
           >
             Upload cover image
           </Title>
           <Space
             style={{
-              backgroundColor: "white",
-              borderRadius: "1.2rem",
+              backgroundColor: "#FFFFFF",
+              borderRadius: "1.3rem",
               display: "flex",
               alignItems: "stretch",
               justifyContent: "center",
@@ -50,16 +50,16 @@ const ImageUpload = (props: any) => {
           >
             <Space
               style={{
-                backgroundColor: "white",
-                borderRadius: "5px",
-                border: "1px dashed #000",
+                backgroundColor: "#FFFFFF",
+                borderRadius: "6px",
+                border: "1px dashed #000000",
                 boxShadow: "3px 3px 9px 0px rgba(190, 190, 190, 0.13)",
                 height: "30%",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 flexDirection: "column",
-                margin: "2.5rem",
+                margin: "2.6rem",
                 padding: "10px",
               }}
               onClick={handleClick}
@@ -67,11 +67,11 @@ const ImageUpload = (props: any) => {
               <UploadOutlined style={{ fontSize: "3rem" }} />
               <Title
                 style={{
-                  color: "#000",
+                  color: "#000000",
                   fontFamily: "Poppins",
-                  fontSize: "1rem",
+                  fontSize: "2rem",
                   fontStyle: "normal",
-                  fontWeight: "600",
+                  fontWeight: "700",
                 }}
               >
                 Upload Cover Image
@@ -80,9 +80,9 @@ const ImageUpload = (props: any) => {
                 style={{
                   color: "#979797",
                   fontFamily: "Poppins",
-                  fontSize: "0.9rem",
+                  fontSize: "1rem",
                   fontStyle: "normal",
-                  fontWeight: "500",
+                  fontWeight: "600",
                 }}
               >
                 16:9 ratio is recommended. Max image size 1mb
@@ -107,7 +107,7 @@ const ImageUpload = (props: any) => {
             style={{
               height: "100%",
               width: "100%",
-              borderRadius: "1.2rem 1.2rem  0px 0px",
+              borderRadius: "1.3rem 1.3rem  0px 0px",
             }}
           />
           <Button
@@ -118,11 +118,11 @@ const ImageUpload = (props: any) => {
               alignItems: "center",
               color: " #A80000",
               fontFamily: "Poppins",
-              fontSize: "1rem",
+              fontSize: "2rem",
               fontStyle: "normal",
-              fontWeight: "600",
-              lineHeight: "1.5rem",
-              marginBottom: "0.5rem",
+              fontWeight: "700",
+              lineHeight: "1.6rem",
+              marginBottom: "0.7rem",
             }}
           >
             ❌ Delete & re-upload
@@ -133,4 +133,4 @@ const ImageUpload = (props: any) => {
   );
 };
 
-export default ImageUpload;
+export default ImageFolder;

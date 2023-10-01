@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/header/Header";
-import ImageUpload from "./imageUpload/ImageUpload";
+import ImageUpload from "./imageFolder/ImageFolder";
 import { Button, Col, Row, notification } from "antd";
 import PersonalInformation from "./personalInformation/PersonalInformation";
 import Profile from "./profile/Profile";
