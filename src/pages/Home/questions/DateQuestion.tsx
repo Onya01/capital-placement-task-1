@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Row } from "antd";
-import TextField from "../../../components/inputs/TextField";
+import TextField from "../../../components/textField/TextField";
 
 const DateQuestion = (props: any) => {
   const { handleDeleteQuestion, handleSaveQuestion, value, setValue } = props;

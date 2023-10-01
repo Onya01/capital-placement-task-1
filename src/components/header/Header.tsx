@@ -7,11 +7,11 @@ const Header: React.FC = () => {
     <>
       <Row
         style={{
-          height: "7rem",
-          marginTop: "5rem",
-          backgroundColor: "#FFF",
-          borderRadius: "0.5rem",
-          boxShadow: "0px 1px 18px 0px rgba(0, 0, 0, 0.12)",
+          height: "6rem",
+          marginTop: "4rem",
+          backgroundColor: "#FFFFFF",
+          borderRadius: "0.4rem",
+          boxShadow: "0px 2px 19px 0px rgba(0, 0, 0, 0.13)",
         }}
       >
         <Col
@@ -24,11 +24,11 @@ const Header: React.FC = () => {
         >
           <Title
             style={{
-              color: "#000",
+              color: "#000000",
               fontFamily: "Inter",
-              fontSize: "1.2rem",
+              fontSize: "1.4rem",
               fontStyle: "normal",
-              fontWeight: "500",
+              fontWeight: "700",
               lineHeight: "normal",
             }}
           >
@@ -46,11 +46,11 @@ const Header: React.FC = () => {
         >
           <Title
             style={{
-              color: "#FFF",
+              color: "#FFFFFF",
               fontFamily: "Inter",
-              fontSize: "1.2rem",
+              fontSize: "1.4rem",
               fontStyle: "normal",
-              fontWeight: "500",
+              fontWeight: "700",
               lineHeight: "normal",
             }}
           >
@@ -68,11 +68,11 @@ const Header: React.FC = () => {
         >
           <Title
             style={{
-              color: "#000",
+              color: "#000000",
               fontFamily: "Inter",
-              fontSize: "1.2rem",
+              fontSize: "1.4rem",
               fontStyle: "normal",
-              fontWeight: "500",
+              fontWeight: "700",
               lineHeight: "normal",
             }}
           >
@@ -89,11 +89,11 @@ const Header: React.FC = () => {
         >
           <Title
             style={{
-              color: "#000",
+              color: "#000000",
               fontFamily: "Inter",
-              fontSize: "1.2rem",
+              fontSize: "1.4rem",
               fontStyle: "normal",
-              fontWeight: "500",
+              fontWeight: "700",
               lineHeight: "normal",
             }}
           >

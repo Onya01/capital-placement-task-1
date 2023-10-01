@@ -1,6 +1,6 @@
 import { Button, Row } from "antd";
 import React from "react";
-import TextField from "../../../components/inputs/TextField";
+import TextField from "../../../components/textField/TextField";
 
 const ShortAnswer = (props: any) => {
   const { handleDeleteQuestion, handleSaveQuestion, value, setValue } = props;

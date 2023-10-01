@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Input, Row, Select } from "antd";
-import TextField from "../../../components/inputs/TextField";
+import TextField from "../../../components/textField/TextField";
 import TextArea from "antd/es/input/TextArea";
 
 const VideoQuestion = (props: any) => {

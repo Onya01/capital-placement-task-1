@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Button, Checkbox, Col, ConfigProvider, Row } from "antd";
-import TextField from "../../../components/inputs/TextField";
+import TextField from "../../../components/textField/TextField";
 import { PlusOutlined, UnorderedListOutlined } from "@ant-design/icons";
 
 const Mcq = (props: any) => {

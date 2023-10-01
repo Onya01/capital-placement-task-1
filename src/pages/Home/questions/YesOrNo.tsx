@@ -1,6 +1,6 @@
 import { Button, Checkbox, ConfigProvider, Row } from "antd";
 import React from "react";
-import TextField from "../../../components/inputs/TextField";
+import TextField from "../../../components/textField/TextField";
 
 const YesOrNo = (props: any) => {
   const {
