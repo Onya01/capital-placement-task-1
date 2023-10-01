@@ -2,15 +2,15 @@ import { Button, Divider, Row, Select, Space } from "antd";
 import Title from "antd/es/typography/Title";
 import React from "react";
 import FormQuestionBlock from "../../../components/questionaireForm/QuestionaireForm";
-import ParagraphQuestion from "../questions/ParagraphQuestion";
-import YesOrNo from "../questions/YesOrNo";
-import ShortAnswer from "../questions/ShortAnswer";
-import DateQuestion from "../questions/Informtion";
-import NumberQuestion from "../questions/NumberQuestion";
-import FileQuestion from "../questions/FileQuestion";
-import VideoQuestion from "../questions/VideoQuestion";
-import DropDownQuestion from "../questions/DropDownQuestion";
-import Mcq from "../questions/Mcq";
+import ParagraphQuestion from "../informations/ParagraphQuestion";
+import YesOrNo from "../informations/YesOrNo";
+import ShortAnswer from "../informations/ShortAnswer";
+import DateQuestion from "../informations/DataQuestion";
+import NumberQuestion from "../informations/NumberQuestion";
+import FileQuestion from "../informations/FileQuestion";
+import VideoQuestion from "../informations/VideoQuestion";
+import DropDownQuestion from "../informations/DropDownQuestion";
+import Mcq from "../informations/Mcq";
 
 
 const ExtQuestions = (props: any) => {

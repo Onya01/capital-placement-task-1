@@ -2,15 +2,15 @@ import { EditOutlined } from "@ant-design/icons";
 import { Button, Col, Divider, Row, Select } from "antd";
 import Title from "antd/es/typography/Title";
 import React, { useEffect } from "react";
-import ParagraphQuestion from "../../pages/Home/questions/ParagraphQuestion";
-import ShortAnswer from "../../pages/Home/questions/ShortAnswer";
-import YesOrNo from "../../pages/Home/questions/YesOrNo";
-import DropDownQuestion from "../../pages/Home/questions/DropDownQuestion";
-import Mcq from "../../pages/Home/questions/Mcq";
-import DateQuestion from "../../pages/Home/questions/Informtion";
-import NumberQuestion from "../../pages/Home/questions/NumberQuestion";
-import FileQuestion from "../../pages/Home/questions/FileQuestion";
-import VideoQuestion from "../../pages/Home/questions/VideoQuestion";
+import ParagraphQuestion from "../../pages/Home/informations/ParagraphQuestion";
+import ShortAnswer from "../../pages/Home/informations/ShortAnswer";
+import YesOrNo from "../../pages/Home/informations/YesOrNo";
+import DropDownQuestion from "../../pages/Home/informations/DropDownQuestion";
+import Mcq from "../../pages/Home/informations/Mcq";
+import DateQuestion from "../../pages/Home/informations/DataQuestion";
+import NumberQuestion from "../../pages/Home/informations/NumberQuestion";
+import FileQuestion from "../../pages/Home/informations/FileQuestion";
+import VideoQuestion from "../../pages/Home/informations/VideoQuestion";
 
 
 const QuestionaireForm = (props: any) => {
