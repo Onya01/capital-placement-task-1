@@ -9,7 +9,7 @@ import NumberQuestion from "../informations/NumberQuestion";
 import FileQuestion from "../informations/FileInfo";
 import VideoQuestion from "../informations/VideoQuestion";
 import DropDownQuestion from "../informations/DropDownInfor";
-import Mcq from "../informations/Mcq";
+import Mcq from "../informations/MixedQuestion";
 
 const AddQuestion = (props: any) => {
   const { allQuestion, setAllQuestion } = props;

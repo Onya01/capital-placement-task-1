@@ -6,7 +6,7 @@ import ParagraphQuestion from "../../pages/Home/informations/ParagraphQuestion";
 import ShortAnswer from "../../pages/Home/informations/ShortAnswer";
 import YesOrNo from "../../pages/Home/informations/YesOrNo";
 import DropDownQuestion from "../../pages/Home/informations/DropDownInfor";
-import Mcq from "../../pages/Home/informations/Mcq";
+import Mcq from "../../pages/Home/informations/MixedQuestion";
 import DateQuestion from "../../pages/Home/informations/InfoQuestion";
 import NumberQuestion from "../../pages/Home/informations/NumberQuestion";
 import FileQuestion from "../../pages/Home/informations/FileInfo";
