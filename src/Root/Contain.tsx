@@ -3,7 +3,7 @@ import { Avatar, Tabs } from "antd";
 import Home from "../pages/Home/Home";
 import { HomeOutlined, MenuOutlined, ProfileOutlined } from "@ant-design/icons";
 
-const Layout: React.FC = () => {
+const Container: React.FC = () => {
   const iconsArray = [
     <></>,
     <MenuOutlined style={{ fontSize: "1.5rem" }} />,
@@ -70,4 +70,4 @@ const Layout: React.FC = () => {
   );
 };
 
-export default Layout;
+export default Container;
