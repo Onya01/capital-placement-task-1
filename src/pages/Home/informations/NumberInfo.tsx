@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Row } from "antd";
 import TextField from "../../../components/textField/TextField";
 
-const NumberQuestion = (props: any) => {
+const NumberInfo = (props: any) => {
   const { handleDeleteQuestion, handleSaveQuestion, value, setValue } = props;
   const [saveLoading, setSaveLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
@@ -32,9 +32,9 @@ const NumberQuestion = (props: any) => {
             style={{
               color: "#A80000",
               fontFamily: "Poppins",
-              fontSize: "0.9rem",
+              fontSize: "1rem",
               fontStyle: "normal",
-              fontWeight: "600",
+              fontWeight: "700",
             }}
             onClick={handleDeleteQuestion}
           >
@@ -45,8 +45,8 @@ const NumberQuestion = (props: any) => {
             style={{
               borderRadius: "5px",
               background: "#087B2F",
-              width: "4.5rem",
-              height: "2.2rem",
+              width: "4.7rem",
+              height: "2.4rem",
             }}
             onClick={() => {
               setError(false);
@@ -55,7 +55,7 @@ const NumberQuestion = (props: any) => {
                 setTimeout(() => {
                   handleSaveQuestion();
                   setSaveLoading(false);
-                }, 500);
+                }, 700);
               } else {
                 setError(true);
               }
@@ -70,4 +70,4 @@ const NumberQuestion = (props: any) => {
   );
 };
 
-export default NumberQuestion;
+export default NumberInfo;
