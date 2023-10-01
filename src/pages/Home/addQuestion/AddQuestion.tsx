@@ -1,14 +1,14 @@
 import { Button, Divider, Row, Select, Space } from "antd";
 import React from "react";
 import FormQuestionBlock from "../../../components/questionaireForm/QuestionaireForm";
-import ParagraphQuestion from "../informations/ParagraphInfo";
+import ParagraphQuestion from "../informations/Paragraph";
 import YesOrNo from "../informations/YesOrNo";
 import ShortAnswer from "../informations/ShortAnswer";
 import DateQuestion from "../informations/InfoQuestion";
 import NumberQuestion from "../informations/Number";
 import FileQuestion from "../informations/FileUpload";
 import VideoQuestion from "../informations/VideoQuestion";
-import DropDownQuestion from "../informations/DropDownInfor";
+import DropDownQuestion from "../informations/DropDown";
 import Mcq from "../informations/MultiplChoice";
 
 const AddQuestion = (props: any) => {
