@@ -1,6 +1,5 @@
-import React from 'react';
 import './App.css';
-import Layout from './common/Layout';
+import Layout from './Root/Contain';
 
 function App() {
   return (
