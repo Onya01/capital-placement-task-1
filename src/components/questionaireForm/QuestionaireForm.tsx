@@ -5,7 +5,7 @@ import React, { useEffect } from "react";
 import ParagraphQuestion from "../../pages/Home/informations/ParagraphQuestion";
 import ShortAnswer from "../../pages/Home/informations/ShortAnswer";
 import YesOrNo from "../../pages/Home/informations/YesOrNo";
-import DropDownQuestion from "../../pages/Home/informations/DropDownQuestion";
+import DropDownQuestion from "../../pages/Home/informations/DropDownInfor";
 import Mcq from "../../pages/Home/informations/Mcq";
 import DateQuestion from "../../pages/Home/informations/InfoQuestion";
 import NumberQuestion from "../../pages/Home/informations/NumberQuestion";
