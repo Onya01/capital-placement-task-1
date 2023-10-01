@@ -2,7 +2,7 @@ import { Button, Row } from "antd";
 import React from "react";
 import TextField from "../../../components/textField/TextField";
 
-const InfoAnswer = (props: any) => {
+const ShortAnswer = (props: any) => {
   const { handleDeleteQuestion, handleSaveQuestion, value, setValue } = props;
   const [saveLoading, setSaveLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
@@ -67,4 +67,4 @@ const InfoAnswer = (props: any) => {
   );
 };
 
-export default InfoAnswer;
+export default ShortAnswer;

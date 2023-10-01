@@ -4,13 +4,13 @@ import React from "react";
 import FormQuestionBlock from "../../../components/questionaireForm/QuestionaireForm";
 import ParagraphQuestion from "../informations/ParagraphInfo";
 import YesOrNo from "../informations/YesOrNo";
-import ShortAnswer from "../informations/InfoAnswer";
+import ShortAnswer from "../informations/ShortAnswer";
 import DateQuestion from "../informations/InfoQuestion";
 import NumberQuestion from "../informations/NumberInfo";
 import FileQuestion from "../informations/FileInfo";
 import VideoQuestion from "../informations/VideoQuestion";
 import DropDownQuestion from "../informations/DropDownInfor";
-import Mcq from "../informations/MixedQuestions";
+import Mcq from "../informations/MultiplChoice";
 
 
 const ExtQuestions = (props: any) => {
