@@ -3,7 +3,7 @@ import { Button, Checkbox, Col, ConfigProvider, Row } from "antd";
 import TextField from "../../../components/textField/TextField";
 import { PlusOutlined, UnorderedListOutlined } from "@ant-design/icons";
 
-const DropDownQuestion = (props: any) => {
+const DropDownInfo = (props: any) => {
   const {
     handleDeleteQuestion,
     handleSaveQuestion,
@@ -84,7 +84,7 @@ const DropDownQuestion = (props: any) => {
                 }}
               >
                 <UnorderedListOutlined
-                  style={{ fontSize: "1.5rem", marginTop: "2rem" }}
+                  style={{ fontSize: "1.6rem", marginTop: "2rem" }}
                 />
               </Col>
               <Col span={20}>
@@ -115,7 +115,7 @@ const DropDownQuestion = (props: any) => {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            marginBottom: "25px",
+            marginBottom: "4rem",
           }}
         >
           <Col
@@ -128,7 +128,7 @@ const DropDownQuestion = (props: any) => {
             }}
           >
             <UnorderedListOutlined
-              style={{ fontSize: "1.5rem", marginTop: "2rem" }}
+              style={{ fontSize: "1.6rem", marginTop: "2rem" }}
             />
           </Col>
           <Col span={20}>
@@ -153,7 +153,7 @@ const DropDownQuestion = (props: any) => {
           >
             <PlusOutlined
               style={{
-                fontSize: "1.5rem",
+                fontSize: "1.6rem",
                 marginTop: "2.5rem",
               }}
               onClick={handleAddOptions}
@@ -166,7 +166,7 @@ const DropDownQuestion = (props: any) => {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            marginBottom: "25px",
+            marginBottom: "4rem",
           }}
         >
           <ConfigProvider
@@ -178,11 +178,11 @@ const DropDownQuestion = (props: any) => {
           >
             <Checkbox
               style={{
-                color: " #000",
+                color: " #000000",
                 fontFamily: "Poppins",
-                fontSize: "0.9rem",
+                fontSize: "1rem",
                 fontStyle: "normal",
-                fontWeight: "400",
+                fontWeight: "500",
               }}
               checked={other}
               onChange={() => {
@@ -207,9 +207,9 @@ const DropDownQuestion = (props: any) => {
             style={{
               color: "#A80000",
               fontFamily: "Poppins",
-              fontSize: "0.9rem",
+              fontSize: "1rem",
               fontStyle: "normal",
-              fontWeight: "600",
+              fontWeight: "700",
             }}
             onClick={handleDeleteQuestion}
           >
@@ -231,7 +231,7 @@ const DropDownQuestion = (props: any) => {
                     setTimeout(() => {
                       setChoices(tempChoicesArray);
                       setSaveLoading(false);
-                    }, 500);
+                    }, 700);
                   } else {
                     setError(true);
                   }
@@ -267,4 +267,4 @@ const DropDownQuestion = (props: any) => {
   );
 };
 
-export default DropDownQuestion;
+export default DropDownInfo;
