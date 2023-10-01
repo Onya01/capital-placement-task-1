@@ -9,7 +9,6 @@ import AddQuestion from "./addQuestion/AddQuestion";
 import type { NotificationPlacement } from "antd/es/notification/interface";
 
 const Home = () => {
-  // Open Notification
   const [api, contextHolder] = notification.useNotification();
   const openNotification = (placement: NotificationPlacement) => {
     api.info({
@@ -88,55 +87,43 @@ const Home = () => {
     openNotification("topRight");
   };
 
-  // Profile Section
-  // Education
   const [educationMandatory, setEducationMandatory] = React.useState(false);
   const [educationShow, setEducationShow] = React.useState(false);
-  // experience
+
   const [experienceMandatory, setExperienceMandatory] = React.useState(false);
   const [experienceShow, setExperienceShow] = React.useState(false);
-  // Resume
+  
   const [resumeMandatory, setResumeMandatory] = React.useState(false);
   const [resumeShow, setResumeShow] = React.useState(false);
-  // profileQuestions
+  
   const [profileQuestions, setProfileQuestions] = React.useState<Array<Object>>(
     []
   );
 
-  // Personal Info Section
-  // Phone
   const [phoneInternal, setPhoneInternal] = React.useState(false);
   const [phoneShow, setPhoneShow] = React.useState(false);
 
-  // Nationality
   const [nationalityInternal, setNationalityInternal] = React.useState(false);
   const [nationalityShow, setNationalityShow] = React.useState(false);
 
-  // Address
   const [addInternal, setAddInternal] = React.useState(false);
   const [addShow, setAddShow] = React.useState(false);
 
-  // ID Number
   const [idInternal, setIDInternal] = React.useState(false);
   const [idShow, setIdShow] = React.useState(false);
 
-  // Date of Birth
   const [dobInternal, setDOBInternal] = React.useState(false);
   const [dobShow, setDOBShow] = React.useState(false);
 
-  // Gender
   const [genderInternal, setGenderInternal] = React.useState(false);
   const [genderShow, setGenderShow] = React.useState(false);
 
-  // Personal Questions
   const [personalQuestions, setPersonalQuestions] = React.useState<
     Array<Object>
   >([]);
 
-  // File Upload Section
   const [coverImageURL, setCoverImage] = React.useState<String>();
 
-  // Additional Question Section
   const [additionalQuestions, setAdditionalQuestion] = React.useState<
     Array<Object>
   >([
